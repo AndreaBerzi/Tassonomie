@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace Tassonomie
 {
-    abstract class Animale_Marino : Pesce
+    abstract class Animale_Marino : Animale
     {
-        public Animale_Marino(string nome, string tipo, string habitat, int numero):base(nome, tipo, "mare", numero)
-        { }
-        public override string siMuove()
+        public Animale_Marino(string nome, string tipo, string habitat, int numero, string manto) : base(nome, tipo, habitat, numero, manto)
         {
-            string c = "flush,flush";
-            return c;
+
         }
     }
 }

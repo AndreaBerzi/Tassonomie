@@ -12,12 +12,14 @@ namespace Tassonomie
         protected string tipoAnimale;
         protected string habitat;
         protected int numeroZampe;
-        public Animale(string nome, string tipo, string habitat, int numero)
+        protected string manto;
+        public Animale(string nome, string tipo, string habitat, int numero, string manto)
         {
             nomeAnimale = nome;
             tipoAnimale = tipo;
             this.habitat = habitat;
             numeroZampe = numero;
+            this.manto = manto;
         }
         public abstract string siMuove();
 

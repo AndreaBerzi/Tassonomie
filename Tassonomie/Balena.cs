@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace Tassonomie
 {
-    abstract class Animale_Fluviale : Pesce
+    class Balena:Mammifero_Marino
     {
-        public Animale_Fluviale(string nome, string tipo, string habitat, int numero):base(nome, tipo, "fiume", numero)
+        public Balena() : base("Balena", "Mammifero_Marino", "Mare", 0, "Pelle")
         {
 
         }
         public override string siMuove()
         {
-            string b = "splash, splash";
-            return b;
+            return "Nuoto";
         }
     }
 }

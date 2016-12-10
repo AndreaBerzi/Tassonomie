@@ -8,7 +8,7 @@ namespace Tassonomie
 {
     abstract class Animale_Terrestre : Animale
     {
-        public Animale_Terrestre(string nome, string tipo, string habitat, int numero):base(nome, "animale terrestre", habitat, numero)
+        public Animale_Terrestre(string nome, string tipo, string habitat, int numero, string manto):base(nome, tipo, habitat, numero, manto)
         {
 
         }

@@ -1,3 +1,4 @@
 C:\Users\Asus-Tablet\Desktop\Tassonomie\Tassonomie\bin\Debug\Tassonomie.exe.config
 F:\4I1\Informatica\Tassonomie\Tassonomie\bin\Debug\Tassonomie.exe.config
 E:\4I1\Informatica\Tassonomie\Tassonomie\bin\Debug\Tassonomie.exe.config
+E:\4I1\Informatica\Tassonomie\Tassonomie\obj\Debug\Tassonomie.csprojResolveAssemblyReference.cache

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Tassonomie
 {
-    interface Quadrupede
+    interface Animale_piumoso
     {
-        void setZampe();
+        void setMantoPiumoso();
     }
 }

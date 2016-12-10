@@ -6,11 +6,23 @@ using System.Threading.Tasks;
 
 namespace Tassonomie
 {
-    class Cavallo : Quadrupede
+    class Cavallo :Animale_Terrestre, Animale_Peloso, Quadrupede
     {
-        public Cavallo() : base("cavallo", "quadrupede", "terra", 4)
+        public Cavallo() : base("cavallo", "quadrupede", "terra", 0,"")
         {
 
+        }
+        public void setMantoPeloso()
+        {
+            manto = "Pelo";
+        }
+        public void setZampe()
+        {
+            numeroZampe = 4;
+        }
+        public override string siMuove()
+        {
+            return "Galoppo";
         }
     }
 }

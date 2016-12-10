@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tassonomie
 {
-    interface Quadrupede
+    abstract class Mammifero_acquatico
     {
-        void setZampe();
     }
 }

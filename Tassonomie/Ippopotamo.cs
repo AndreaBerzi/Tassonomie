@@ -6,23 +6,19 @@ using System.Threading.Tasks;
 
 namespace Tassonomie
 {
-    class Uomo : Mammifero_Terrestre, Bipede, Animale_Peloso
+    class Ippopotamo:Mammifero_Fluviale, Quadrupede
     {
-        public Uomo() : base("Uomo", "Terrestre", "Terra", 0, "")
+        public Ippopotamo() : base("Ippopotamo", "Mammifero Fluviale", "Fiume", 0, "Pelle")
         {
 
         }
-        public void setMantoPeloso()
-        {
-            manto = "SemiPeloso";
-        }
         public void setZampe()
         {
-            numeroZampe = 2;
+            numeroZampe = 4;
         }
         public override string siMuove()
         {
-            return "Cammino";
+            return "Nuoto/Cammino";
         }
     }
 }

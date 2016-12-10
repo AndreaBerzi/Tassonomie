@@ -44,13 +44,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animale.cs" />
-    <Compile Include="Animale_acquatico.cs" />
-    <Compile Include="Animale_Fluviale.cs" />
     <Compile Include="Animale_Marino.cs" />
+    <Compile Include="Animale_peloso.cs" />
+    <Compile Include="Animale_piumoso.cs" />
+    <Compile Include="Animale_Quamoso.cs" />
     <Compile Include="Animale_Terrestre.cs" />
+    <Compile Include="Balena.cs" />
     <Compile Include="Bipede.cs" />
     <Compile Include="Cavallo.cs" />
     <Compile Include="Corvo.cs" />
+    <Compile Include="Ippopotamo.cs" />
+    <Compile Include="Mammifero_acquatico.cs" />
+    <Compile Include="Mammifero_Fluviale.cs" />
+    <Compile Include="Mammifero_Marino.cs" />
+    <Compile Include="Mammifero_Terrestre.cs" />
     <Compile Include="Pesce.cs" />
     <Compile Include="Pinguino.cs" />
     <Compile Include="Program.cs" />
@@ -59,6 +66,7 @@
     <Compile Include="Salmone.cs" />
     <Compile Include="Tonno.cs" />
     <Compile Include="Uccello.cs" />
+    <Compile Include="Uccello_marino.cs" />
     <Compile Include="Uomo.cs" />
   </ItemGroup>
   <ItemGroup>

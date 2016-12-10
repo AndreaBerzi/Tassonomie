@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Tassonomie
 {
-    abstract class Uccello : Animale_Terrestre
+    abstract class Uccello_marino:Animale_Marino
     {
-        public Uccello(string nome, string tipo, string habitat, int numero, string manto) : base(nome, "Uccello", "terra/aria", numero, manto)
+        public Uccello_marino(string nome, string tipo, string habitat, int numero, string manto):base(nome,"Uccello Marino",habitat, numero, manto)
         {
 
         }
         public override string siMuove()
         {
-            return "fiu,fiu";
+            return "Cammina";
         }
         public void setMantoPiumoso()
         {
-            manto = "Piume";
+            manto = "piume";
         }
         public void setZampe()
         {

@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace Tassonomie
 {
-    class Pinguino : Uccello
+    class Pinguino : Uccello_marino, Animale_piumoso
     {
-        public Pinguino() : base("pinguino", "bipede", "terra/acqua", 2)
+        public Pinguino() : base("pinguino", "Uccello_Marino", "terra/acqua", 2, "")
         {
 
+        }
+        public void setMantoPiumoso()
+        {
+            manto = "Piume";
+        }
+        public override string siMuove()
+        {
+            return "Nuoto/Cammino";
         }
     }
 }

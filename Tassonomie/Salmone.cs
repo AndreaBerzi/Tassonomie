@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace Tassonomie
 {
-    class Salmone : Animale_Fluviale
+    class Salmone : Pesce
     {
-        public Salmone() : base("salmone","animale acquatico","fiume",0)
+        public Salmone() : base("salmone","animale acquatico","fiume",0, "")
         {
 
+        }
+        public void setMantoSquamoso()
+        {
+            manto = "Squame";
+        }
+        public override string siMuove()
+        {
+            return "Nuoto";
         }
     }
 }
